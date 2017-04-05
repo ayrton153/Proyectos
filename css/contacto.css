@@ -1,0 +1,30 @@
+
+#imagenmoviendo{
+	animation: imagenmoviendo 10s infinite;
+	animation-direction: alternate;
+}
+/*
+los keyframes
+son paradas que va tener la duracion y a quien se la aplico
+
+*/
+@keyframes imagenmoviendo{
+	0%, 30%{
+		background: url(../img/Contacto.jpg)no-repeat center center fixed;
+	
+	}
+
+	31%, 34%{
+		
+	}
+	35%, 65%{
+		background: url(../img/contacto2.jpg)no-repeat center center fixed;
+	}
+	69%, 99%{
+
+	}
+	70%, 100%{
+		background: url(../img/Contacto.jpg)no-repeat center center fixed;
+	}
+
+}
